@@ -1,0 +1,63 @@
+body {
+    background-color:orangered;
+    font-size: 111%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1230px;
+    min-width: 580px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#leipa {
+    font-family: 'MV Boli';
+    border:12px solid rgb(255,242,0);
+    padding:20px;
+    background-color:orange;
+}
+
+#leipa2 {
+    font-family: 'MV Boli';
+    font-size: 14px;
+    border:12px solid rgb(255,242,0);
+    padding:20px;
+    background-color:orange;
+}
+
+#otsikko {
+    font-size: 150%;
+    font-family:mv boli;
+    color: rgb(255,200,0);
+}
+
+#aita {
+    margin: -24px;
+}
+
+#juttu1 {
+    margin-right: 20px;
+    margin-top: 3px;
+    float: right;
+}
+
+
+
+style
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th, td {
+        text-align: left;
+        padding: 15px;
+        border-style: ridge;
+        border-bottom-color: rgb(255, 136, 0);
+        border-top-color: gold;
+        border-left-color:orange;
+        border-right-color:rgb(255, 153, 0);
+    }
+
+    tr:nth-child(even) {background-color: rgb(233,122,22);}
